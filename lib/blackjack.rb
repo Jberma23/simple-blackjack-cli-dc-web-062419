@@ -1,9 +1,12 @@
 def welcome
-  # code #welcome here
+  puts "Welcome"
 end
 
 def deal_card
-  # code #deal_card here
+  card1 = floor(rand(11))
+  card2 = floor(rand(11))
+  return card1 
+  return card2
 end
 
 def display_card_total
