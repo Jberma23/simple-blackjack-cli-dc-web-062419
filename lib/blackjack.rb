@@ -3,8 +3,7 @@ def welcome
 end
 
 def deal_card
-  card1 = floor(rand(11))
-  card2 = floor(rand(11))
+  cards = [floor(rand(11)), floor(rand(11))]
 end
 
 def display_card_total
