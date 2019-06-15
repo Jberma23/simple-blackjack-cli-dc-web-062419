@@ -7,14 +7,8 @@ rand(1..11)
 end
 
 def display_card_total(deal_card)
-  counter = 0
-  loop do
-    puts "#{deal_card}"
-    counter += 1
-    break if
-    counter == 2
-  end
-
+  card_total = deal_card.chomp + deal_card.chomp
+  puts "Your cards add up to #{card_total}"
 end
 
 def prompt_user
