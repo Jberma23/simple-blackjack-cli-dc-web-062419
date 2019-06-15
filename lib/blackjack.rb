@@ -10,7 +10,6 @@ def display_card_total(deal_card)
   counter = 0
   loop do
     puts "#{deal_card}"
-    puts "#{deal_card}"
     counter += 1
     break if
     counter == 2
