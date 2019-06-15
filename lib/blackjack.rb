@@ -1,5 +1,5 @@
 def welcome
-  return "Welcome"
+  welcome = "Welcome"
 end
 
 def deal_card
