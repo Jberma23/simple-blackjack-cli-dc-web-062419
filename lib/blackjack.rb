@@ -1,9 +1,9 @@
 def welcome
-"Welcome to the Blackjack Table"
+puts "Welcome to the Blackjack Table"
 end
 
 def deal_card
-  cards = [floor(rand(11)), floor(rand(11))]
+  # cards = [floor(rand(11)), floor(rand(11))]
 end
 
 def display_card_total
