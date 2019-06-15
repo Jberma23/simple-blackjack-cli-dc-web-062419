@@ -7,8 +7,15 @@ rand(1..11)
 end
 
 def display_card_total(deal_card)
-  return deal_card
-  return deal_card
+  counter = 0
+  loop do
+    puts "#{deal_card}"
+    puts "#{deal_card}"
+    counter += 1
+    break if
+    counter == 2
+  end
+
 end
 
 def prompt_user
