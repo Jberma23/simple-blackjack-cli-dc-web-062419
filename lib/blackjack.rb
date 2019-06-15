@@ -5,7 +5,7 @@ end
 def deal_card
   card1 = floor(rand(11))
   card2 = floor(rand(11))
-  return card1 
+  return card1
   return card2
 end
 
@@ -44,4 +44,3 @@ end
 def runner
   # code runner here
 end
-    
