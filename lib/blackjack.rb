@@ -5,8 +5,6 @@ end
 def deal_card
   card1 = floor(rand(11))
   card2 = floor(rand(11))
-  return card1
-  return card2
 end
 
 def display_card_total
