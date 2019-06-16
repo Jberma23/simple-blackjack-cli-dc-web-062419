@@ -53,11 +53,12 @@ end
 #####################################################
 
 def runner
-  loop do
   welcome
   initial_round
   prompt_user
   hit?
-  break if
-  end_game == true
+  display_card_total
+  loop until card_total > 21
+end
+return end_game
 end
