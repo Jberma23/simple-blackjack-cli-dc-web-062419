@@ -53,9 +53,11 @@ end
 #####################################################
 
 def runner
+  loop do
   welcome
   initial_round
   prompt_user
   hit?
-end_game
+  break if
+  end_game == true
 end
